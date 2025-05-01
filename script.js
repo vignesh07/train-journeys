@@ -487,25 +487,25 @@ function createRouteGeoJSON(stations) {
 const routeImages = {
     californiaZephyr: [
         {
-            path: 'images/californiaZephyr_4.jpg',
+            path: 'images/compressed/californiaZephyr_4.jpg',
             coords: [-111.8910, 40.7608], // Salt Lake City
             title: 'Rocky Mountains',
             description: 'California Zephyr passing through the Rocky Mountains'
         },
         {
-            path: 'images/californiaZephyr_5.jpg',
+            path: 'images/compressed/californiaZephyr_5.jpg',
             coords: [-122.2852, 37.8315], // Emeryville
             title: 'Golden Gate Bridge',
             description: 'View of the Golden Gate Bridge from the California Zephyr'
         },
         {
-            path: 'images/californiaZephyr_6.jpg',
+            path: 'images/compressed/californiaZephyr_6.jpg',
             coords: [-104.9903, 39.7392], // Denver
             title: 'Near Denver',
             description: 'Scenic view near Denver on the California Zephyr'
         },
         {
-            path: 'images/californiaZephyr_7.jpg',
+            path: 'images/compressed/californiaZephyr_7.jpg',
             coords: [-95.9345, 41.2565], // Omaha
             title: 'Mississippi River',
             description: 'View of the Mississippi River from the California Zephyr'
@@ -513,7 +513,7 @@ const routeImages = {
     ],
     cascades: [
         {
-            path: 'images/cascades_2.jpg',
+            path: 'images/compressed/cascades_2.jpg',
             coords: [-122.4400, 47.2529], // Tacoma
             title: 'Mount Rainier',
             description: 'View of Mount Rainier from near Tacoma'
@@ -605,7 +605,7 @@ const routeImages = {
             description: 'View of Anfield Stadium near Liverpool Lime Street station'
         },
         {
-            path: 'images/london.JPG',
+            path: 'images/compressed/london.JPG',
             coords: [-0.1332, 51.5284], // London Euston
             title: 'Modern Station Architecture',
             description: 'Distinctive geometric facade featuring white hourglass-shaped elements near London Euston'
