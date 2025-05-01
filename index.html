@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Train Journey Visualization</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no'>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css' rel='stylesheet'>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js'></script>
+    <link href='styles.css' rel='stylesheet'>
+    <script src='script.js'></script>
+</head>
+<body>
+    <div class="page" id="intro-page">
+        <div class="intro-content">
+            <h1>Trains trains trains</h1>
+            <div class="intro-text">
+                <p>A visualization of iconic train routes across the United States and Europe.</p>
+                <p>Featuring routes like:</p>
+                <ul>
+                    <li>California Zephyr</li>
+                    <li>Amtrak Cascades</li>
+                    <li>Elizabeth Line</li>
+                    <li>Oslo-Bergen Railway</li>
+                    <li>Thalys</li>
+                    <li>West Coast Main Line</li>
+                </ul>
+            </div>
+            <button class="nav-button" data-target="us-page" id="begin-button">Begin Journey →</button>
+        </div>
+    </div>
+
+    <div class="page hidden" id="us-page">
+        <div class="map-title">
+            <h2>United States Train Routes</h2>
+            <p>Experience the scenic journeys across America</p>
+        </div>
+        <div id="us-map" class="map"></div>
+        <div class="nav-buttons">
+            <button class="nav-button" data-target="intro-page">← Back</button>
+            <button class="nav-button" data-target="eu-page">Europe →</button>
+        </div>
+    </div>
+
+    <div class="page hidden" id="eu-page">
+        <div class="map-title">
+            <h2>European Train Routes</h2>
+            <p>Discover the rail networks of Europe</p>
+        </div>
+        <div id="eu-map" class="map"></div>
+        <div class="nav-buttons">
+            <button class="nav-button" data-target="us-page">← US Routes</button>
+            <button class="nav-button" data-target="intro-page">Start Over</button>
+        </div>
+    </div>
+</body>
+</html> 
