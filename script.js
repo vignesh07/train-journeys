@@ -521,7 +521,7 @@ const routeImages = {
     ],
     elizabeth: [
         {
-            path: 'images/elizabeth_2.jpg',
+            path: 'images/compressed/elizabeth_3.jpg',
             coords: [-0.1778, 51.5154], // Paddington
             title: 'Elizabeth Line',
             description: 'Elizabeth Line train at the station'
@@ -529,25 +529,25 @@ const routeImages = {
     ],
     osloBergen: [
         {
-            path: 'images/oslo_bergen_2.jpg',
+            path: 'images/compressed/oslo_bergen_2.jpg',
             coords: [7.5026, 60.6012], // Finse
             title: 'Finse Station',
             description: 'Oslo-Bergen Railway at Finse Station'
         },
         {
-            path: 'images/oslo_bergen_3.jpg',
+            path: 'images/compressed/oslo_bergen_3.jpg',
             coords: [8.2080, 60.5341], // Geilo
             title: 'Geilo Station',
             description: 'Oslo-Bergen Railway at Geilo Station'
         },
         {
-            path: 'images/oslo_bergen_4.jpg',
+            path: 'images/compressed/oslo_bergen_4.jpg',
             coords: [6.4225, 60.6294], // Voss
             title: 'Voss Station',
             description: 'Oslo-Bergen Railway at Voss Station'
         },
         {
-            path: 'images/oslo_bergen_5.jpg',
+            path: 'images/compressed/oslo_bergen_5.jpg',
             coords: [5.3220, 60.3913], // Bergen
             title: 'Bergen Station',
             description: 'Oslo-Bergen Railway at Bergen Station'
@@ -555,43 +555,43 @@ const routeImages = {
     ],
     thalys: [
         {
-            path: 'images/thalys_1.jpg',
+            path: 'images/compressed/thalys_1.jpg',
             coords: [2.3558, 48.8809], // Paris Nord
             title: 'Eiffel Tower',
             description: 'The iconic Eiffel Tower in Paris'
         },
         {
-            path: 'images/thalys_2.jpg',
+            path: 'images/compressed/thalys_2.jpg',
             coords: [2.3538, 48.8819], // Paris Nord + slight offset
             title: 'Arc de Triomphe',
             description: 'View of the Arc de Triomphe from the Thalys'
         },
         {
-            path: 'images/thalys_3.jpg',
+            path: 'images/compressed/thalys_3.jpg',
             coords: [2.3578, 48.8799], // Paris Nord + slight offset
             title: 'Louvre Museum',
             description: 'The magnificent Louvre Museum in Paris'
         },
         {
-            path: 'images/thalys_4.jpg',
+            path: 'images/compressed/thalys_4.jpg',
             coords: [2.3548, 48.8829], // Paris Nord + slight offset
             title: 'Paris Architecture',
             description: 'Beautiful Parisian architecture along the route'
         },
         {
-            path: 'images/champs_elysee.jpg',
+            path: 'images/compressed/champs_elysee.jpg',
             coords: [2.3568, 48.8789], // Paris Nord + slight offset
             title: 'Champs-Élysées View',
             description: 'Stunning view down the Champs-Élysées towards Place de la Concorde, with the Grande Roue de Paris (Ferris wheel) visible'
         },
         {
-            path: 'images/thalys_5.jpg',
+            path: 'images/compressed/thalys_5.jpg',
             coords: [4.9003, 52.3791], // Amsterdam Centraal
             title: 'Rijksmuseum',
             description: 'View of the Rijksmuseum from the Thalys'
         },
         {
-            path: 'images/thalys_6.jpg',
+            path: 'images/compressed/thalys_6.jpg',
             coords: [4.9023, 52.3781], // Amsterdam Centraal + slight offset
             title: 'Amsterdam Architecture',
             description: 'Beautiful architecture in Amsterdam'
@@ -599,7 +599,7 @@ const routeImages = {
     ],
     westCoast: [
         {
-            path: 'images/westCoast_1.jpg',
+            path: 'images/compressed/westCoast_1.jpg',
             coords: [-2.9773, 53.4075], // Liverpool Lime Street station
             title: 'Anfield Stadium',
             description: 'View of Anfield Stadium near Liverpool Lime Street station'
